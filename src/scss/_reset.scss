@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    color: $gray;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    color: $black;
+}
+
+a {
+    transform: all 300ms ease-in-out;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: 0px;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+

@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import '_var';
+@import '_reset';
+
+
+
+.navbar-brand {
+    img {
+        width: 160px;
+        margin-left: 60px;
+        margin-top: 46px;
+
+        @include xxl {
+            margin-left: 40px;
+        }
+        @include xxxl {
+            margin-left: 30px;
+        }
+    }
+}
+
+.navbar-nav {
+
+    @include sm {
+        margin-left: 110px;
+        margin-top: 25px;
+    }
+
+    @include lg {
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+
+    @include xl {
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+
+    @include xxl {
+        margin-left: 440px;
+        margin-top: 60px;
+    }
+
+    @include xxxl {
+        margin-left: 470px;
+        margin-top: 60px;
+    }
+
+    .nav-item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: $gray;
+       
+
+        span {
+            font-weight: 700;
+            color: $black;
+        }
+
+        @include sm {
+            line-height: 14px;
+        }
+        @include lg {
+            margin-left: 6px;
+        }
+        @include xl {
+            margin-left: 22px;
+        }
+
+        @include xxxl {
+            margin-left: 25px;
+
+        }
+    }
+}
+
+.header-content {
+    .row{
+        gap: 24px;
+    }
+    .col-2 {
+        img {
+            width: 100px;
+            height: 125px;
+            margin-top: 65px;
+            margin-left: -5px;
+            @include sm{
+                width: 60px;
+                height: 90px;
+            }
+            @include md{
+                width: 70px;
+                height: 100px;
+            }
+            @include lg{
+                width: 100px;
+                height: 125px;
+                margin-top: 65px;
+                margin-left: -5px;
+            }
+           
+
+        }
+    }
+
+    .col-4 {
+        margin-top: 200px;
+        margin-left: -70px;
+
+        @include xl {
+            width: 400px;
+        }
+
+        @include xxl {
+            width: 500px;
+        }
+
+        h1 {
+            font-style: normal;
+            @include sm {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+            }
+            @include md {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+            }
+            @include lg {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 40px;
+            }
+            @include xl {
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 50px;
+            }
+            @include xxl{
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 56px;
+            }
+            @include xxxl{
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 56px;
+            }
+
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+            margin-top: 25px;
+            width: 445px;
+            padding-right: 5px;
+            @include sm {
+                width: 250px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            @include md {
+                width: 350px;
+                font-size: 18px;
+                line-height: 32px;
+            }
+            @include lg {
+                width: 400px;
+                font-size: 21px;
+            }
+            @include xl {
+                width: 400px;
+                font-size: 21px;
+            }
+            @include xxl {
+                padding-right: 5px;
+                font-size: 21px;
+                width: 445px;
+            }
+        }
+
+        .button {
+            width: 200px;
+            height: 60px;
+            left: 221px;
+            top: 569px;
+            background: #458FF6;
+            border-radius: 55px;
+            margin-top: 47px;
+
+            samp {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 60px;
+                color: $white;
+                margin-left: 30px;
+            }
+            @include sm {
+                width: 150px;
+                height: 40px;
+                left: 221px;
+                top: 569px;
+                background: #458FF6;
+                border-radius: 55px;
+                margin-top: 47px;
+    
+                samp {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 40px;
+                    color:$white;
+                    margin-left: 30px;
+                }
+            }
+            @include md {
+                width: 200px;
+                height: 60px;
+                left: 221px;
+                top: 569px;
+                background: #458FF6;
+                border-radius: 55px;
+                margin-top: 47px;
+    
+                samp {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 60px;
+                    color: $white;
+                    margin-left: 30px;
+                }
+
+            }
+        }
+    }
+
+    .col-6 {
+        img {
+           
+            @include sm {
+                width: 280px;
+                margin-top: 150px;
+                margin-left: 20px;
+            }
+            @include md {
+                width: 440px;
+                margin-top: 84px;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: 0px;
+            }
+            @include lg {
+                width: 540px;
+                margin-top: 84px;
+                padding-left: 50px;
+            }
+            @include xl {
+                width: 693px;
+                margin-top: 84px;
+                padding-left: 50px;
+                padding-left: 0px;
+            }
+            @include xxl {
+                width: 693px;
+                margin-top: 84px;
+                padding-left: 50px;
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            @include xxxl {
+                width: 740px;
+                margin-top: 84px;
+                padding-left: 50px;
+                margin-left: -10px;
+                padding-left: 0px;
+                
+            }
+
+
+        }
+    }
+}
